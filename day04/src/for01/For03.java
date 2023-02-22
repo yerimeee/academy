@@ -21,7 +21,7 @@ public class For03 {
 		 * int evenSum = 0;
 		 * for(int i=1; i<=100; i++) {
 		 * 	if(i%2==0)
-		 * 		evenSum += i;
+		 * 		evenSum += i;	//evenSum = evenSum + i 와 같은 말!!! i++을 해서 대입하란 말이 아님!!
 		 * 	else
 		 * 		oddSum += i;
 		 * System.out.println("1개의 for문으로 짝수의 합 : " + evenSum);
