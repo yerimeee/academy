@@ -18,7 +18,7 @@ public class Student {
 	}
 	
 	static void totalCount(int tCount) {
-		//this.tCount = tCount;	객체 생성을 하지 않고도 출력 가능이라 this 오류남.
+		//this.tCount = tCount; 	this는 객체를 가리키는데 클래스 메서드는 객체가 없으므로 오류남.
 		System.out.println("현재 수강인원: " + tCount);
 	}
 }
