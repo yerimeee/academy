@@ -19,7 +19,7 @@ public class Buyer {
 	void summary() {
 		int sum = 0; //지역변수라 초기화
 		String itemList = "";
-		for(Product i : cart) {
+		for(Product i : cart) {	//객체 타입은 초기값이 null
 			if(i == null)	//잔액이 부족하여 더 이상 물품이 없을 때
 				break;
 			sum += i.price;
