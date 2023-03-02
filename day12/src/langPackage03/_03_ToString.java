@@ -11,7 +11,7 @@ public class _03_ToString {
 		
 		Card card1 = new Card();
 		Card card2 = new Card("HEART", 10);
-		System.out.println(card1);
+		System.out.println(card1);	//toString 오버라이딩 했기 때문에 주소값이 아닌 설정해준 출력문이 나옴
 		System.out.println(card2);
 	}
 
