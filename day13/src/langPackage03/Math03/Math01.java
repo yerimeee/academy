@@ -45,7 +45,9 @@ public class Math01 {
 		System.out.println(value2);
 		double value3 = Math.round(value2);
 		System.out.println(value3);
-		System.out.println(value3/100); 
+		System.out.println(value3/100);
+		//위에것들은 잘 안 쓰고 거의 밑에 거 사용
+		System.out.printf("%.2f", 89.45678);
 	}
 
 }
