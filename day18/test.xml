@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>propertiesTest임</comment>
+<entry key="Set">HachSet</entry>
+<entry key="List">ArrayList</entry>
+<entry key="Map">porperties</entry>
+<entry key="Hello">World</entry>
+</properties>
